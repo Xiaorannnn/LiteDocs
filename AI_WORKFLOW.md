@@ -1,7 +1,7 @@
 # AI workflow note
 
 ## Tools used
-Claude (chat) as a pair-programmer for scaffolding, drafting code, and drafting documentation. I ran, tested, and reviewed everything locally.
+Claude as a pair-programmer for scaffolding, drafting code, and drafting documentation. I ran, tested, and reviewed everything locally.
 
 ## How I used it
 1. **Scoping first, by me.** I read the brief and decided the slice before generating anything: authenticated users, HTML documents, owner/editor/viewer sharing, import-as-new-document, SQLite. I used the AI to pressure-test the scope cuts, not to choose them.

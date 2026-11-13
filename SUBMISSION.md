@@ -1,8 +1,8 @@
 # Submission contents
 
 ## Links
-- **Live product:** `<PASTE DEPLOYED URL>`
-- **Walkthrough video:** see `VIDEO_URL.txt`
+- **Live product:** https://litedocs-vwf3.onrender.com
+- **Walkthrough video:** https://drive.google.com/file/d/1S6ILv8mSEt462JUayrUFL36g94-C0rn6/view?usp=sharing
 
 ## Review credentials
 All accounts use password `demo1234`: `alice@ajaia.test` (owner of seeded doc), `bob@ajaia.test` (editor on it), `carol@ajaia.test` (no access until shared).
