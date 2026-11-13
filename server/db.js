@@ -47,7 +47,7 @@ CREATE INDEX IF NOT EXISTS idx_shares_user ON shares(user_id);
 
 const DEMO_PASSWORD = 'demo1234';
 const DEMO_USERS = [
-  ['alice@ajaia.test', 'Alice Nguyen'],
+  ['alice@ajaia.test', 'Alice Chen'],
   ['bob@ajaia.test', 'Bob Martins'],
   ['carol@ajaia.test', 'Carol Reyes'],
 ];
