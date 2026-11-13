@@ -2,7 +2,7 @@
 
 A lightweight collaborative document editor: rich-text editing, file import, and owner/editor/viewer sharing. Node + Express + SQLite on the back end, Quill on the front end (no build step).
 
-**Live app:** `<PASTE DEPLOYED URL>`
+**Live app:** https://litedocs-vwf3.onrender.com
 
 ## Test accounts (all share the password `demo1234`)
 
