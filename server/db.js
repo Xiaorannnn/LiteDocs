@@ -53,7 +53,7 @@ const DEMO_USERS = [
 ];
 
 const WELCOME_HTML =
-  '<h1>Welcome to Ajaia Docs</h1>' +
+  '<h1>Welcome to LiteDocs</h1>' +
   '<p>This document is owned by <strong>Alice</strong> and shared with <strong>Bob</strong> as an <em>editor</em>. ' +
   'Sign in as either user to see it under "My documents" or "Shared with me".</p>' +
   '<h2>Try these</h2>' +
@@ -78,7 +78,7 @@ function seed(db) {
   const ids = DEMO_USERS.map(([email, name]) => insertUser.run(email, name, hashPassword(DEMO_PASSWORD)).lastInsertRowid);
   const doc = db
     .prepare('INSERT INTO documents (owner_id, title, content, created_at, updated_at) VALUES (?, ?, ?, ?, ?)')
-    .run(ids[0], 'Welcome to Ajaia Docs', WELCOME_HTML, now, now);
+    .run(ids[0], 'Welcome to LiteDocs', WELCOME_HTML, now, now);
   db.prepare('INSERT INTO shares (document_id, user_id, role, created_at) VALUES (?, ?, ?, ?)').run(doc.lastInsertRowid, ids[1], 'editor', now);
 }
 

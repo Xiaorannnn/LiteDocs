@@ -72,7 +72,7 @@
     view.innerHTML = `
       <form class="login" id="loginForm">
         <h1>Sign in</h1>
-        <p>Ajaia Docs is a shared workspace for drafting and reviewing documents.</p>
+        <p>LiteDocs is a shared workspace for drafting and reviewing documents.</p>
         <p class="error" id="loginError" role="alert"></p>
         <label>Email<input type="email" name="email" required autocomplete="username"></label>
         <label>Password<input type="password" name="password" required autocomplete="current-password"></label>

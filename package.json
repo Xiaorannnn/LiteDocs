@@ -1,5 +1,5 @@
 {
-  "name": "ajaia-docs",
+  "name": "lite-docs",
   "version": "1.0.0",
   "description": "Lightweight collaborative document editor (rich text, file import, sharing) built for the Ajaia take-home.",
   "main": "server/index.js",
@@ -8,7 +8,9 @@
     "dev": "node --watch server/index.js",
     "test": "node --test test/*.test.js"
   },
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "dependencies": {
     "better-sqlite3": "^11.3.0",
     "express": "^4.19.2",

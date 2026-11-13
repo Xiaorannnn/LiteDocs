@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: ajaia-docs
+    name: lite-docs
     runtime: docker
     plan: free
     healthCheckPath: /healthz

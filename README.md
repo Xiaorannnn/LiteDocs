@@ -1,4 +1,4 @@
-# Ajaia Docs
+# LiteDocs
 
 A lightweight collaborative document editor: rich-text editing, file import, and owner/editor/viewer sharing. Node + Express + SQLite on the back end, Quill on the front end (no build step).
 
@@ -8,7 +8,7 @@ A lightweight collaborative document editor: rich-text editing, file import, and
 
 | User | Email | Notes |
 |---|---|---|
-| Alice | alice@ajaia.test | Owns the seeded "Welcome to Ajaia Docs" document |
+| Alice | alice@ajaia.test | Owns the seeded "Welcome to LiteDocs" document |
 | Bob | bob@ajaia.test | Has edit access to Alice's welcome document |
 | Carol | carol@ajaia.test | Has no access to anything until someone shares with her |
 
