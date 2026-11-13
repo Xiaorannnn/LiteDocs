@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: lite-docs
+    name: litedocs
     runtime: docker
     plan: free
     healthCheckPath: /healthz
